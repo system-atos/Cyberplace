@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- <nav class="navbar"></nav> -->
+
+    
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.html"><img src="Images/CPLogoL.png" width="125px" alt="logo.png"></a> 
+            </div>
+    
+            <div class="search">
+                <input type="text" class="search-box" placeholder="Search Brand, Product">
+                <button class="search-btn">Search</button>
+            </div>
+    
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="Images/cart icon.png" alt="Cart" width="30px" height="30px">
+            <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div> 
+
+
+
+    <!--Forms-->
+    <div class="small-container">
+
+        <div>
+            <img src="Images/CPLogoS.png" alt="Cyberplace" class="logo">
+        </div>
+        
+    <form>
+        <div>
+            <div>
+                <h1>Create account</h1>
+            </div>
+            
+
+            <div>
+                <p1 class="info">Your name</p1>
+            </div>
+               
+
+           <div>
+               <input type="text" placeholder="First and last name" class="textbox" required>
+            </div>
+                
+          <div>
+              <p1 class="info">Mobile number</p1>
+            </div>
+              
+
+            <div>
+                <input type="number" class="textbox" maxlength="11" required>
+            </div>
+                
+
+            <div>
+                <p1 class="info">Email address</p1>
+            </div>
+               
+            <div>
+                <input type="text" class="textbox" required>
+            </div>
+                
+
+            <div>
+                <p1 class="info">Birthdate</p1>
+            </div>
+                
+
+            <div>
+                <input type="date" class="textbox" required>
+            </div>
+                
+
+            <div>
+                <p1 class="info">Password</p1>
+            </div>
+                
+
+            <div>
+                <input type="password" placeholder="At least 8 characters" class="textbox" minlength="8" maxlength="32" required>
+            </div>
+                
+
+            <div>
+                <p1 class="info2">Passwords must be at least 8 characters.</p1>
+            </div>
+                
+
+            <div>
+                <p1 class="info">Re-enter password</p1>
+            </div>
+                
+
+            <div>
+                <input type="password" class="textbox">
+            </div>
+                
+
+           <div>
+               <input type="submit" class="submitbutton">
+            </div>
+                
+
+           <div>
+                <p1 class="account">Already have an account? </p1><a class="signin" href="../login/login.html">Sign in.</a>
+            </div>
+               
+        </div>
+
+    </form>
+    </div>
+
+    <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS</p>
+                        <div class="app-logo">
+                            <img src="Images/play-store.png">
+                            <img src="Images/app-store.png">
+                        </div>
+                    </div>
+
+                    <div class="footer-col-2">
+                        <img src="Images/CPLogoS.png">
+                        <p>Our purpose is to sustainably make the pleasure of 
+                            providing accessible smarthpones to everyone.
+                        </p>
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join our Community</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                       <ul>
+                           <li>Facebook</li>
+                           <li>Twitter</li>
+                           <li>Instagram</li>
+                           <li>Youtube</li>
+                       </ul>
+                    </div>
+
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Cybeplace inc.</p>
+            </div>
+        </div>
+</body>
+</html>

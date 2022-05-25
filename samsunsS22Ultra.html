@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>
+            All Products - Cyberplace
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+<!-- Header Section-->
+
+
+<div class="container">
+    
+    <div class="navbar">
+        <div class="logo">
+           <a href="index.html"><img src="Images/CPLogoL.png" width="125px" alt="logo.png"></a> 
+        </div>
+
+        <div class="search">
+            <input type="text" class="search-box" placeholder="Search Brand, Product">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="Images/cart icon.png" alt="Cart" width="30px" height="30px">
+        <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div> 
+
+</div>
+
+            <!--Single Product Details-->
+
+            <div class="small-container single-product">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="Images/Exclusive2.jpg" alt="Samsung S22 Ultra" width="100%" id="productImg" class="resize">
+
+                        <div class="small-img-row">
+                            <div class="small-img-col">
+                                <img src="Images/Samsung S22 Ultra_3.jpg" class ="small-img resize" width="100%">
+                            </div>
+
+                            <div class="small-img-col">
+                                <img src="Images/Samsung S22 Ultra_5.jpg" class ="small-img resize" width="100%">
+                            </div>
+
+                            <div class="small-img-col">
+                                <img src="Images/Samsung S22 Ultra_6.jpg" class ="small-img resize" width="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <p>Home / Samsung</p>
+                        <h1>Samsung S22 Ultra</h1>
+                        <h4>35,000php</h4>
+                        <select>
+                            <option>Select Ram</option>
+                            <option>64gb</option>
+                            <option>128gb</option>
+                        </select>
+                        <input type="number">
+                        <a href="" class="btn">Add to Cart</a>
+
+                        <h3>Product Details  <i class="fa fa-indent"></i></h3>
+                        <br>
+                        <p>Shoot 4K videos, beautiful portraits, and sweeping landscapes with the 
+                            all-new dual-camera system. Capture your best low-light photos with Night mode. 
+                            See true-to-life color in your photos, videos, and games on the 6.1-inch Liquid 
+                            Retina display. Experience unprecedented performance with A13 Bionic for gaming, 
+                            augmented reality (AR), and photography. Do more and charge less with all-day battery life.
+                            And worry less with water resistance up to 2 meters for 30 minutes.</p>
+                    </div>
+                </div>
+            </div>
+            <!---Title--->
+            <div class="small-container">
+                <div class="row row-2">
+                    <h2>You May Also Like</h2>
+                    <p>View More</p>
+                </div>
+            </div>
+
+        <!--Products-->
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col-4 pcol"> 
+                    <img class ="resize" src="Images/FeaturedP1.png" alt="Product1">
+                    <h4>Vivo X70 </h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>25,000php</p>
+                </div>
+                <div class="col-4 pcol">
+                    <img class ="resize" src="Images/FeaturedP2.png" alt="Product1">
+                    <h4>Samsung A53</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>25,000php</p>
+                </div>
+                <div class="col-4 p-col">
+                    <img class ="resize" src="Images/Latest2.jpg" alt="Product1">
+                    <h4>Samsung Z-Fold</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>25,000php</p>
+                </div>
+            </div>
+
+        </div>
+
+<!--Footer-->
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download App for Android and IOS</p>
+                            <div class="app-logo">
+                                <img src="Images/play-store.png">
+                                <img src="Images/app-store.png">
+                            </div>
+                        </div>
+
+                        <div class="footer-col-2">
+                            <img src="Images/CPLogoS.png">
+                            <p>Our purpose is to sustainably make the pleasure of 
+                                providing accessible smarthpones to everyone.
+                            </p>
+                        </div>
+
+                        <div class="footer-col-3">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Blog Post</li>
+                                <li>Return Policy</li>
+                                <li>Join our Community</li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-col-4">
+                            <h3>Follow us</h3>
+                           <ul>
+                               <li>Facebook</li>
+                               <li>Twitter</li>
+                               <li>Instagram</li>
+                               <li>Youtube</li>
+                           </ul>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright 2020 - Cybeplace inc.</p>
+                </div>
+            </div>
+<!-- JS for Toggle Menu-->
+<script>
+
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+<!--JS For Product Gallery-->
+<!-- Ayaw Gumana
+<script>
+    var productImg = document.getElementById("ProductImg");
+    var smallIMG = document.getElementsByClassName("small-img");
+
+    smallIMG[0].onclick = function()
+    {
+        productImg.src = smallIMG[0].src;
+    }
+    
+
+</script>
+-->
+
+    </body>
+</html>
